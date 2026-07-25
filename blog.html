@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,80 +8,79 @@
     <meta name="keywords" content="Joaquim Costa, Blog, Junior Software Developer, IT Support Specialist, Technology Insights, Tutorials, Software Development Updates">
     <meta name="author" content="Joaquim Costa">
 </head>
-    <body>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html" target="_self">Joaquim Costa</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="about.html" id="about-preview" class="about-preview" target="_self" title="Learn more about my background and experience">About</a></li>
+                <li><a href="projects.html" target="_self" title="View my projects">Projects</a></li>
+                <li><a href="education.html" target="_self" title="Learn more about my education">Education</a></li>
+                <li><a href="skills.html" target="_self" title="Discover my skills">Skills</a></li>
+                <li><a href="blog.html" target="_self" title="Read my blog posts">Blog</a></li>
+                <li><a href="contact.html" target="_self" title="Get in touch with me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
 
-       <!-- Header & Navigation -->
-                
-                <header class="header">
+    <!-- Main Content Wrapper -->
+    <main>
+        <!-- Blog Introduction Section -->
+        <section id="blog-intro" class="blog-intro">
+            <h1>Blog & Tech Insights</h1>
+            <div class="intro-content">
+                <p>
+                    Welcome to my digital journal, a space dedicated to documenting my evolution as a Junior Software Developer and IT Support Specialist. 
+                    This blog serves as an open sandbox where I translate complex technical workflows, architectural concepts, and system anomalies into readable articles. 
+                    By writing about what I learn, I aim to simplify the software engineering lifecycle and provide practical, real-world value to self-taught developers, IT technicians, and open-source contributors alike.
+                </p>
+                <p>
+                    Here, you will find a blend of deep-dive tutorials, front-end architecture walkthroughs, cloud deployment strategies, and efficient technical support methodologies. 
+                    My unique professional background allows me to analyze technology from two critical angles: writing modular code and ensuring that system configurations remain highly maintainable. 
+                    I unpack tools like JavaScript, React, Tailwind CSS, Zendesk, and cloud infrastructure platforms to share things that save troubleshooting time.
+                </p>
+                <p>
+                    Technology moves fast, and maintaining this blog is my commitment to continuous learning and open knowledge sharing. 
+                    I write about my breakthroughs, structural setbacks, and engineering updates directly from my development desk in Cape Town. 
+                    Explore my recent entries below, check out the code implementations, and feel free to connect via my contact page if a post sparks an idea or a collaboration!
+                </p>
+            </div>
+        </section>
 
-                    <nav>
-                        <div class="logo">
+        <!-- Recent Blog Posts Section -->
+        <section id="blog-posts" class="blog-posts">
+            <h2>Recent Posts</h2>
+            <div class="posts-container">
+                <article class="post-card">
+                    <img src="" alt="Understanding the Basics of JavaScript"></img>
+                    <h3><a href="blog-post-1.html" target="_self" title="Read the full post: Understanding the Basics of JavaScript">Understanding the Basics of JavaScript</a></h3>
+                    <p>JavaScript is a versatile programming language that powers the modern web. In this post, we explore its core concepts, engine mechanics, DOM manipulation, and how to get started with functional programming fundamentals.</p>
+                    <span class="post-date">Published on: January 15, 2026</span>
+                </article>
 
-                            <a href="index.html" target="_self">Joaquim Costa</a>
-                            
-                        </div> 
-                        
-                            <ul class="nav-links">
-                                <li><a href="about.html" id="about-preview" class="about-preview" target="_self" title="Learn more about my background and experience">About</a></li>
-                                <li><a href="projects.html" target="_self" title="View my projects">Projects</a></li>
-                                <li><a href="education.html" target="_self" title="Learn more about my education">Education</a></li>
-                                <li><a href="skills.html" target="_self" title="Discover my skills">Skills</a></li>  
-                                <li><a href="blog.html" target="_self" title="Read my blog posts">Blog</a></li>
-                                <li><a href="contact.html" target="_self" title="Get in touch with me">Contact</a></li>
-                            </ul>
-                    </nav>
+                <article class="post-card">
+                    <img src="" alt="Top 5 Tips for Effective IT Support"></img>
+                    <h3><a href="blog-post-2.html" target="_self" title="Read the full post: Top 5 Tips for Effective IT Support">Top 5 Tips for Effective IT Support</a></h3>
+                    <p>Providing enterprise-grade IT support requires a balance of analytical hardware/software troubleshooting and excellent customer service. Here are my top five technical tips to reduce resolution times and maximize system uptime.</p>
+                    <span class="post-date">Published on: February 10, 2026</span>
+                </article>
+                <!-- Add more blog posts using the article template above -->
+            </div>
+        </section>
+    </main>
 
-                </header>
-
-                <!-- end of header -->
-
-
-        <!-- Blog Section  -->
-
-            <section id="blog" class="blog">
-                <div>
-                    <h1>Blog</h1>
-                </div>
-                <div>
-                    <p>Welcome to my blog! Here, I share my thoughts, experiences, and insights on software development, IT support, and technology in general. Stay tuned for tutorials, updates, and discussions on the latest trends in the tech world.</p>
-                </div>
-
-                <data
-
-            </section>
-            
-            <section id="blog-posts" class="blog-posts">
-                <div>
-                    <h2>Recent Posts</h2>
-                </div>
-                <div class="posts-container">
-                    <article class="post">
-                        <h3><a href="blog-post-1.html" target="_self" title="Read the full post">Understanding the Basics of JavaScript</a></h3>
-                        <p>JavaScript is a versatile programming language that powers the web. In this post, we explore its core concepts and how to get started with it.</p>
-                        <span class="post-date">Published on: January 15, 2026</span>
-                    </article>
-
-                    <article class="post">
-                        <h3><a href="blog-post-2.html" target="_self" title="Read the full post">Top 5 Tips for Effective IT Support</a></h3>
-                        <p>Providing excellent IT support requires a combination of technical skills and customer service. Here are my top five tips for success in this field.</p>
-                        <span class="post-date">Published on: February 10, 2026</span>
-                    </article>
-
-                    <!-- Add more blog posts as needed -->
-                </div>
-
-        <!-- Footer Section -->
-
-            <footer class="footer">
-
-                        <p>&copy; 2026 Joaquim Costa. All rights reserved.</p>
-
-                        <div>
-                            <a href="https://github.com/Joaquimdacosta1999" target="_blank" rel="noopener noreferrer" title="Visit my GitHub profile (Opens in a new tab)">GitHub</a> |
-                            <a href="https://www.linkedin.com/in/joaquim-costa-1999/" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile (Opens in a new tab)">LinkedIn</a> |
-                            <a href="mailto:joaquimdacosta1999@gmail.com" title="Send me an email">Email</a>
-                        </div>
-
-            </footer>
-    </body>
- </html>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2026 Joaquim Costa. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="Visit my GitHub profile (Opens in a new tab)">GitHub</a> | 
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile (Opens in a new tab)">LinkedIn</a> | 
+            <a href="mailto:joaquimdacosta1999@gmail.com" title="Send me an email">Email</a>
+        </div>
+    </footer>
+</body>
+</html>
